@@ -1,0 +1,2 @@
+# -p publish port
+docker run --rm -p  12345:13245 -p 12346:13246 --name echo-server ubuntu:14.04 bash

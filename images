@@ -1,0 +1,7 @@
+# create version on image
+docker commit sha image:"version" v2.0
+
+# remove image
+docker rmi image:tag
+docker rmi imageid
+

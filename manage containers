@@ -1,0 +1,7 @@
+# log the error log of the container
+docker logs containername
+
+# stopping and running containers
+# kill and remove container
+docker kill containername
+docker rm containername

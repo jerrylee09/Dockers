@@ -1,0 +1,8 @@
+# view network
+docker network ls
+
+# create container network
+docker create network "name"
+
+# example to run the network
+docker run --rm -ti --net "name" --name "servername"
