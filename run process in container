@@ -1,0 +1,17 @@
+# run a container and remove after exit
+docker run --rm
+
+# run and add arguement
+docker run -ti ubuntu bash -c "sleep; echo done"
+
+# to detach container let it run in the background
+docker run -d -ti
+
+# attach
+docker attach containername
+
+# hot key to exit container and let it run background
+ctl + p , ctl + q
+
+# run the  same open container with the same process
+docker exec -ti containername bash
