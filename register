@@ -1,0 +1,7 @@
+# find images
+docker search "images"
+example:
+    docker search ubuntu
+
+# find image in web
+https://hub.docker.com
