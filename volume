@@ -1,0 +1,7 @@
+# Volume are share data but does not stay for long
+
+# create volume and share local
+docker run -ti  -v /path/way/to/data:/pathInContainerShare ubuntu bash
+
+# Share data between containers
+docker run -ti --volume-from containername ubuntu bash
