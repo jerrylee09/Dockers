@@ -1,0 +1,13 @@
+# this show all the images
+docker images
+
+
+# -ti is a flag that mean terminal interactive
+
+docker run -ti imagename:version bash
+
+# view running images
+docker ps
+
+# to see all containers
+docker p -l
